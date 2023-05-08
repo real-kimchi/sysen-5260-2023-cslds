@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  secbox:
+    user: root
+    build:
+      context: ./secbox
+    volumes:
+      - .:/opt/data
