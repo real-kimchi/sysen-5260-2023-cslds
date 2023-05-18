@@ -1,3 +1,3 @@
 FROM ubuntu
 RUN apt update
-RUN apt install -y openssh-server
+RUN apt install -y gnupg

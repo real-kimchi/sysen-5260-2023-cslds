@@ -3,7 +3,8 @@ version: '2'
 services:
   secbox:
     user: root
+    working_dir: /opt/data
     build:
       context: ./secbox
     volumes:
-      - .:/opt/data
+      - ./data:/opt/data
